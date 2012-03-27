@@ -7,10 +7,13 @@ body.show-grid .container-16 {
 }
 
 body {
-    background: url('images/bg01b.gif') repeat-x;
-    font: 14px HelveticaNeueLTStd57Condensed, Arial, Helvetica, sans-serif;
+    font: 14px Arial, Helvetica, sans-serif;
     color: #5c5b50;
 }
+#site-wrapper {
+    background: url('images/bg01b.gif') repeat-x;
+}
+
 
 /**************/
 /*** HEADER ***/
