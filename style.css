@@ -18,6 +18,7 @@ body {
 
 #site-header, #site-subheader {
     margin-bottom: 0;
+    position: relative;
 }
 #site-header {
     position: relative;
@@ -33,9 +34,9 @@ body {
 
 #front_map {
     position: absolute;
-    left: 646px;
+    left: 616px;
     top: 0;
-    z-index: 0;
+    z-index: -1;
 }
 
 
