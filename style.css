@@ -49,10 +49,6 @@ h1#site-name {
     height: 390px;
     background: url('images/bg04.png') no-repeat 50% 0;
 }
-.front #header-region {
-    background: url('images/bg04.png') no-repeat 50% 0;
-    height: 390px;
-}
 
 #header-region {
     color: #fff;
