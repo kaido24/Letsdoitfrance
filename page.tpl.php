@@ -45,7 +45,15 @@
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?>
-    
+
+  <?php if (!$is_front): ?>  
+    <?php if ($title && $node->type != 'article' ): ?>
+        <h1 class="title"><?php print $title; ?></h1>
+    <?php elseif ($title && $node->type == 'article' ): ?>
+        <h1 class="title"><?php t('News'); ?></h1>
+    <?php endif;?>
+  <?php endif; ?>
+
 </div>
 </div>
 
