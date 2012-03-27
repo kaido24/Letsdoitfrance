@@ -34,6 +34,20 @@ body {
     height: 390px;
     background: url('images/bg04.png') no-repeat 50% 0;
 }
+.front #header-region {
+    background: url('images/bg04.png') no-repeat 50% 0;
+}
+
+#header-region {
+    color: #fff;
+    z-index: 9;
+}
+#header-region {
+    position: relative;
+    height: 114px;
+    background: url('images/bg06.gif') no-repeat;
+}
+
 
 #front_map {
     position: absolute;
