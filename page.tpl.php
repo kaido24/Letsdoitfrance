@@ -83,6 +83,8 @@
 </div>
 
 
+<div id="footer-outer">
+    <div id="footer-inner">
 
   <div id="footer" class="container-16 clearfix">
     <?php if ($page['footer']): ?>
@@ -91,3 +93,6 @@
       </div>
     <?php endif; ?>
   </div>
+
+    </div>
+</div>

@@ -1,9 +1,37 @@
+/**************/
+/*** HEADER ***/
+/**************/
+
 #site-header, #site-subheader {
     margin-bottom: 0;
 }
 
+
+
+/************/
+/*** PAGE ***/
+/************/
+
+
 #page-wrapper {
-	min-height: 300px;
-	padding-bottom: 90px;
-	background: url('images/bg05.gif') no-repeat 50% 100%;
+    min-height: 300px;
+    padding-bottom: 90px;
+    background: url('images/bg05.gif') no-repeat 50% 100%;
+}
+
+
+
+/**************/
+/*** FOOTER ***/
+/**************/
+
+#footer-outer {
+    background: url('images/bg02.gif') repeat-x;
+}
+#footer-inner {
+    background: url('images/bg03.gif') no-repeat 50% 0;
+}
+#footer {
+    padding-top: 5px;
+    min-height: 510px;
 }
