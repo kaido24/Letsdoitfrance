@@ -47,8 +47,8 @@ h1#site-name {
 	-moz-transition: background-color .3s ease .1s;
 	transition: background-color .3s ease .1s;
 }
-#site-menu .active,
-#site-menu .active-trail {
+#site-menu a.active,
+#site-menu a.active-trail {
 	border-bottom: 4px solid #29923e;
 }
 #site-menu .active a,
