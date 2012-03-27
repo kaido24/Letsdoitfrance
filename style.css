@@ -88,19 +88,15 @@ h1#site-name {
     height: 390px;
     background: url('images/bg04.png') no-repeat 50% 0;
 }
-.front #header-region {
-    background: none;
-    /*height: 390px;*/
+#site-subheader-wrapper {
+    position: relative;
+    height: 114px;
+    background: url('images/bg06.gif') no-repeat;
 }
 
 #header-region {
     color: #fff;
     z-index: 9;
-}
-#header-region {
-    position: relative;
-    height: 114px;
-    background: url('images/bg06.gif') no-repeat;
 }
 
 
