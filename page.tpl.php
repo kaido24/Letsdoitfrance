@@ -23,9 +23,6 @@
     </div>
   <?php endif; ?>
 
-  <?php if ($page['search_box']): ?>
-    <div id="search-box" class="grid-6 prefix-10"><?php print render($page['search_box']); ?></div>
-  <?php endif; ?>
   </div>
 
   <div id="site-subheader" class="prefix-1 suffix-1 clearfix">
