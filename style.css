@@ -29,7 +29,6 @@ h1#site-name {
 
 #site-menu {
 	position: absolute;
-	left: 138px;
 	top: 0;
 	z-index: 10;
 }
@@ -74,13 +73,6 @@ h1#site-name {
     position: relative;
     height: 36px;
     z-index: 10;
-}
-
-#front_map {
-    position: absolute;
-    left: 616px;
-    top: 0;
-    z-index: -1;
 }
 
 .front #site-subheader-wrapper {
