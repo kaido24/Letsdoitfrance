@@ -19,6 +19,14 @@ body {
 /*** HEADER ***/
 /**************/
 
+#logo {
+    position: absolute;
+    top: 17px;
+}
+h1#site-name {
+    display: none;
+}
+
 #site-header, #site-subheader {
     margin-bottom: 0;
     position: relative;
@@ -29,6 +37,13 @@ body {
     z-index: 10;
 }
 
+#front_map {
+    position: absolute;
+    left: 616px;
+    top: 0;
+    z-index: -1;
+}
+
 .front #site-subheader-wrapper {
     position: relative;
     height: 390px;
@@ -36,6 +51,7 @@ body {
 }
 .front #header-region {
     background: url('images/bg04.png') no-repeat 50% 0;
+    height: 390px;
 }
 
 #header-region {
@@ -48,13 +64,6 @@ body {
     background: url('images/bg06.gif') no-repeat;
 }
 
-
-#front_map {
-    position: absolute;
-    left: 616px;
-    top: 0;
-    z-index: -1;
-}
 
 
 
