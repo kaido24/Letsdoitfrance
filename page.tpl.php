@@ -27,10 +27,8 @@
 
 
 
-<div id="page" class="container-16 clearfix">
-
-
-  <div id="site-subheader" class="prefix-1 suffix-1 clearfix">
+<div id="site-subheader" class="container-16 clearfix">
+    
   <?php if ($page['highlighted']): ?>
     <div id="highlighted" class="<?php print ns('grid-14', $page['header'], 7); ?>">
       <?php print render($page['highlighted']); ?>
@@ -42,8 +40,12 @@
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?>
-  </div>
+    
+</div>
 
+
+
+<div id="page" class="container-16 clearfix">
 
   <div id="main" class="column <?php print ns('grid-16', $page['sidebar_first'], 4, $page['sidebar_second'], 3) . ' ' . ns('push-4', !$page['sidebar_first'], 4); ?>">
     <?php print $breadcrumb; ?>
@@ -78,12 +80,14 @@
 <?php endif; ?>
 
 
-  <div id="footer" class="prefix-1 suffix-1">
+</div>
+
+
+
+  <div id="footer" class="container-16 clearfix">
     <?php if ($page['footer']): ?>
       <div id="footer-region" class="region grid-14 clearfix">
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>
   </div>
-
-</div>
