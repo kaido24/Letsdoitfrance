@@ -1,0 +1,38 @@
+name = Sdelaem
+description = Theme for Sdelaem project
+version = 1.0
+core = 7.x
+engine = phptemplate
+base theme = ninesixty
+screenshot = screenshot.png
+
+regions[sidebar_first]  = Left Sidebar
+regions[sidebar_second] = Right Sidebar
+regions[content_top] = Content Top
+regions[content] = Content
+regions[content_column_left] = Content Column Left
+regions[content_column_right] = Content Column Right
+regions[content_bottom] = Content Bottom
+regions[header] = Header
+regions[footer] = Footer
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[onpage_top] = Page Top
+regions[onpage_bottom] = Page Bottom
+regions[above_menu] = Above Menu
+regions[slogans] = Slogans
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = style.css
+;stylesheets[all][] = debug.css
+
+;scripts[] = script.js
+;scripts[] = jquery.scrollTo-min.js
