@@ -1,9 +1,9 @@
 <?php
 // $Id: page.tpl.php,v 1.1.2.2.4.2 2011/01/11 01:08:49 dvessel Exp $
 ?>
-<div id="page" class="container-16 clearfix">
 
-  <div id="site-header" class="clearfix">
+<div id="site-header" class="container-16 clearfix">
+
     <div id="branding" class="grid-4 clearfix">
     <?php if ($linked_logo_img): ?>
       <span id="logo" class="grid-1 alpha"><?php print $linked_logo_img; ?></span>
@@ -23,7 +23,12 @@
     </div>
   <?php endif; ?>
 
-  </div>
+</div>
+
+
+
+<div id="page" class="container-16 clearfix">
+
 
   <div id="site-subheader" class="prefix-1 suffix-1 clearfix">
   <?php if ($page['highlighted']): ?>

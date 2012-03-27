@@ -32,7 +32,7 @@ features[] = main_menu
 features[] = secondary_menu
 
 stylesheets[all][] = style.css
-stylesheets[all][] = debug.css
+;stylesheets[all][] = debug.css
 
 ;scripts[] = script.js
 ;scripts[] = jquery.scrollTo-min.js
