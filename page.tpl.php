@@ -26,21 +26,22 @@
 </div>
 
 
-
+<div id="site-subheader-wrapper" class="clearfix">
 <div id="site-subheader" class="container-16 clearfix">
     
   <?php if ($page['highlighted']): ?>
-    <div id="highlighted" class="<?php print ns('grid-14', $page['header'], 7); ?>">
+    <div id="highlighted" class="<?php print ns('grid-16', $page['header'], 8); ?>">
       <?php print render($page['highlighted']); ?>
     </div>
   <?php endif; ?>
 
   <?php if ($page['header']): ?>
-    <div id="header-region" class="region <?php print ns('grid-14', $page['highlighted'], 7); ?> clearfix">
+    <div id="header-region" class="region <?php print ns('grid-16', $page['highlighted'], 8); ?> clearfix">
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?>
     
+</div>
 </div>
 
 
@@ -88,7 +89,7 @@
 
   <div id="footer" class="container-16 clearfix">
     <?php if ($page['footer']): ?>
-      <div id="footer-region" class="region grid-14 clearfix">
+      <div id="footer-region" class="region grid-16 clearfix">
         <?php print render($page['footer']); ?>
       </div>
     <?php endif; ?>

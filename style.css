@@ -14,6 +14,17 @@ body.show-grid .container-16 {
 #site-header, #site-subheader {
     margin-bottom: 0;
 }
+#site-header {
+    position: relative;
+    height: 36px;
+    z-index: 10;
+}
+
+.front #site-subheader-wrapper {
+    position: relative;
+    height: 390px;
+    background: url('bg04.png') no-repeat 50% 0;
+}
 
 
 
