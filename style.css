@@ -27,6 +27,45 @@ h1#site-name {
     display: none;
 }
 
+#site-menu {
+	position: absolute;
+	left: 138px;
+	top: 0;
+	z-index: 10;
+}
+#site-menu li,
+#site-menu a {
+	float: left;
+}
+#site-menu a {
+	padding: 11px 12px;
+	font: 14px/1 HelveticaNeueLTStd77BdCn, Helvetica, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: background-color .3s ease .1s;
+	-moz-transition: background-color .3s ease .1s;
+	transition: background-color .3s ease .1s;
+}
+#site-menu .active,
+#site-menu .active-trail {
+	border-bottom: 4px solid #29923e;
+}
+#site-menu .active a,
+#site-menu .active-trail a,
+#site-menu .active-trail a:hover,
+#site-menu .active a:hover {
+	background-color: #31ab49;
+}
+#site-menu a:hover {
+	background-color: #4d4a38;
+}
+#site-menu a:active {
+	color: #eee;
+}
+
+
+
 #site-header, #site-subheader {
     margin-bottom: 0;
     position: relative;
