@@ -2,7 +2,7 @@
     margin-bottom: 0;
 }
 
-#page {
+#page-wrapper {
 	min-height: 300px;
 	padding-bottom: 90px;
 	background: url('images/bg05.gif') no-repeat 50% 100%;

@@ -44,7 +44,7 @@
 </div>
 
 
-
+<div id="page-wrapper">
 <div id="page" class="container-16 clearfix">
 
   <div id="main" class="column <?php print ns('grid-16', $page['sidebar_first'], 4, $page['sidebar_second'], 3) . ' ' . ns('push-4', !$page['sidebar_first'], 4); ?>">
@@ -79,7 +79,7 @@
   </div>
 <?php endif; ?>
 
-
+</div>
 </div>
 
 
