@@ -6,6 +6,11 @@ body.show-grid .container-16 {
     background-image: none;
 }
 
+body {
+    background: url('images/bg01b.gif') repeat-x;
+    font: 14px HelveticaNeueLTStd57Condensed, Arial, Helvetica, sans-serif;
+    color: #5c5b50;
+}
 
 /**************/
 /*** HEADER ***/
@@ -24,6 +29,13 @@ body.show-grid .container-16 {
     position: relative;
     height: 390px;
     background: url('images/bg04.png') no-repeat 50% 0;
+}
+
+#front_map {
+    position: absolute;
+    left: 646px;
+    top: 0;
+    z-index: 0;
 }
 
 
