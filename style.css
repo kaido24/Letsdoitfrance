@@ -1,4 +1,13 @@
 /**************/
+/*** DEBUG ***/
+/**************/
+
+body.show-grid .container-16 {
+    background-image: none;
+}
+
+
+/**************/
 /*** HEADER ***/
 /**************/
 
