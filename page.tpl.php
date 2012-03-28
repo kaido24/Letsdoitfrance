@@ -46,12 +46,14 @@
     </div>
   <?php endif; ?>
 
-  <?php if (!$is_front): ?>  
+  <?php if (!$is_front): ?>
+    <?php print render($title_prefix); ?>
     <?php if ($title && $node->type != 'article' ): ?>
-        <h1 class="title"><?php print $title; ?></h1>
+        <h1 class="title" id="page-title"><?php print $title; ?></h1>
     <?php elseif ($title && $node->type == 'article' ): ?>
-        <h1 class="title"><?php print t('News'); ?></h1>
+        <h1 class="title" id="page-title"><?php print t('News'); ?></h1>
     <?php endif;?>
+    <?php print render($title_suffix); ?>
   <?php endif; ?>
 
 </div>
@@ -63,11 +65,6 @@
 
   <div id="main" class="column <?php print ns('grid-16', $page['sidebar_first'], 4, $page['sidebar_second'], 3) . ' ' . ns('push-4', !$page['sidebar_first'], 4); ?>">
     <?php print $breadcrumb; ?>
-    <?php print render($title_prefix); ?>
-    <?php if ($title): ?>
-      <h1 class="title" id="page-title"><?php print $title; ?></h1>
-    <?php endif; ?>
-    <?php print render($title_suffix); ?>      
     <?php if ($tabs): ?>
       <div class="tabs"><?php print render($tabs); ?></div>
     <?php endif; ?>
