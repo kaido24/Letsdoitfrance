@@ -345,6 +345,16 @@ ul.menu a {
     line-height: 1.437;
 }
 
+table {
+    color: #8e8d7e;
+}
+table td {
+    padding: 10px 5px;
+    border-bottom: 1px dotted #bebdb9;
+    vertical-align: top;
+}
+
+
 /**************/
 /*** FOOTER ***/
 /**************/
