@@ -164,13 +164,16 @@ h1#site-name {
 
 #block-block-3 {
 	position: absolute;
-	left: 519px;
+	left: 455px;
 	top: 165px;
 	width: 145px;
 }
 #block-block-3 li {
 	margin-bottom: 15px;
         list-style-type: none;
+}
+#block-block-3 ul.actions {
+    margin: 0;
 }
 #block-block-3 ul.actions a {
 	display: block;
