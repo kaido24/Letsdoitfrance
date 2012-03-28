@@ -147,10 +147,10 @@ h1#site-name {
 
 #block-block-2 {
 	position: absolute;
-	left: 314px;
+	left: 255px;
 	top: 152px;
 }
-#block-block-2 a {
+#block-block-2 a#player {
 	display: block;
 	width: 172px;
 	height: 115px;
