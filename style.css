@@ -268,7 +268,7 @@ h1#site-name {
 
 
 
-#data {
+#block-block-5 {
 	position: absolute;
 	bottom: 45px;
 	left: 127px;
@@ -277,24 +277,24 @@ h1#site-name {
 	color:#8e8d7e;
 	overflow: hidden;
 }
-#data ul {
+#block-block-5 ul {
 	width: 677px;
 }
-#data li {
+#block-block-5 li {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 	margin-right: 70px;
 	background: url('images/txt02.gif') no-repeat 100% 4px;
 }
-#data .countries {
+#block-block-5 .countries {
 	padding-right: 78px;
 }
-#data .points {
+#block-block-5 .points {
 	padding-right: 98px;
 	background-position: 100% -51px;
 }
-#data .days {
+#block-block-5 .days {
 	padding-right: 43px;
 	background-position: 100% -106px;
 }
