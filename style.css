@@ -88,10 +88,12 @@ h1#site-name {
     background: url('images/bg06.gif') no-repeat;
 }
 #site-subheader h1 {
-	top: 30px;
-	left: 336px;
-	font-size: 48px;
-        position: absolute;
+    top: 30px;
+    left: 245px;
+    font-size: 48px;
+    position: absolute;
+    font-weight: normal;
+    color: white;
 }
 
 #header-region {
