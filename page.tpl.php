@@ -60,7 +60,11 @@
     </div>
   <?php endif; ?>
 
-  <div id="main" class="column prefix-1 <?php print ns('grid-15', $page['sidebar_first'], 4, $page['sidebar_second'], 3) . ' ' . ns('push-4', !$page['sidebar_first'], 4); ?>">
+  <?php if ($is_front): ?>
+      <div id="main" class="column <?php print ns('grid-16', $page['sidebar_first'], 4, $page['sidebar_second'], 3) . ' ' . ns('push-4', !$page['sidebar_first'], 4); ?>">
+  <?php elseif (!$is_front): ?>
+      <div id="main" class="column prefix-1 <?php print ns('grid-15', $page['sidebar_first'], 4, $page['sidebar_second'], 3) . ' ' . ns('push-4', !$page['sidebar_first'], 4); ?>">
+  <?php endif; ?>
     <?php print $breadcrumb; ?>
     <?php if ($tabs): ?>
       <div class="tabs"><?php print render($tabs); ?></div>
