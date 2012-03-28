@@ -116,8 +116,26 @@ h1#site-name {
     font-size: 37px;
     display: block;
     width: 445px;
+    top: 60px;
 }
 
+#block-block-1 {
+	position: absolute;
+	left: 57px;
+	top: 150px;
+	width: 190px;
+	font: 20px/1.2 Museo500, Arial, Helvetica, sans-serif;
+}
+#block-block-1 a {
+	display: inline-block;
+	margin-top: 8px;
+	color: #fff;
+	font-size: 14px;
+	text-decoration: underline;
+}
+#block-block-1 a:hover {
+	text-decoration: none;
+}
 
 
 /************/

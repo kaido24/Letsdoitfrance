@@ -2,7 +2,7 @@
 
 <div id="site-header" class="container-16 clearfix">
 
-    <div id="branding" class="clearfix">
+    <div id="branding" class="grid-16 clearfix">
     <?php if ($linked_logo_img): ?>
       <span id="logo" class=""><?php print $linked_logo_img; ?></span>
     <?php endif; ?>
@@ -32,17 +32,15 @@
 
   <?php if ($page['header']): ?>
     <div id="header-region" class="region <?php print ns('grid-16', $page['highlighted'], 8); ?> clearfix">
+        <?php if ($is_front): ?>
+            <?php if ($site_slogan): ?>
+            <div id="site-slogan" class=""><?php print $site_slogan; ?></div>
+            <?php endif; ?>
+        <?php endif; ?>
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?>
 
-  <?php if ($is_front): ?>
-    
-    <?php if ($site_slogan): ?>
-      <div id="site-slogan" class=""><?php print $site_slogan; ?></div>
-    <?php endif; ?>
-      
-  <?php endif; ?>
 
 
   <?php if (!$is_front): ?>
