@@ -225,7 +225,7 @@ h1#site-name {
         display: block;
 }
 #block-block-4 .name {
-	margin: 0 10px;
+	margin: 0 10px 15px 10px;
 	font: 14px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
         display: block;
@@ -265,6 +265,40 @@ h1#site-name {
 	background: url('images/txt01.png') no-repeat 100% 5px;
 	font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
 }
+
+
+
+#data {
+	position: absolute;
+	bottom: 45px;
+	left: 127px;
+	width: 587px;
+	font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
+	color:#8e8d7e;
+	overflow: hidden;
+}
+#data ul {
+	width: 677px;
+}
+#data li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-right: 70px;
+	background: url('images/txt02.gif') no-repeat 100% 4px;
+}
+#data .countries {
+	padding-right: 78px;
+}
+#data .points {
+	padding-right: 98px;
+	background-position: 100% -51px;
+}
+#data .days {
+	padding-right: 43px;
+	background-position: 100% -106px;
+}
+
 
 
 /************/
