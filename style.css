@@ -14,6 +14,14 @@ body {
     background: url('images/bg01b.gif') repeat-x;
 }
 
+a {
+    color: #5c5b50;
+    text-decoration: underline
+}
+a:hover {
+    text-decoration: none
+}
+
 
 /**************/
 /*** HEADER ***/
@@ -111,6 +119,7 @@ h1#site-name {
 
 #page-wrapper {
     min-height: 300px;
+    padding-top: 2.5em;
     padding-bottom: 90px;
     background: url('images/bg05.gif') no-repeat 50% 100%;
 }
