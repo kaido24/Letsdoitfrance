@@ -25,14 +25,7 @@
 
 
 <div id="site-subheader-wrapper" class="clearfix">
-<div id="site-subheader" class="container-16 clearfix">
-    
-  <?php // if ($is_front): ?>
-    <!--<div id="front_map">
-        <iframe width="428" height="297" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=tallinn,+estonia&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=55.455479,114.169922&amp;vpsrc=6&amp;ie=UTF8&amp;hq=&amp;hnear=Tallinn,+Harju+County,+Estonia&amp;t=m&amp;ll=59.439839,24.753742&amp;spn=0.025922,0.073299&amp;z=13&amp;output=embed"></iframe>
-    </div>-->
-  <?php // endif; ?>
-  
+<div id="site-subheader" class="container-16 clearfix">  
 
   <?php if ($page['highlighted']): ?>
     <div id="highlighted" class="<?php print ns('grid-16', $page['header'], 8); ?>">
@@ -63,7 +56,7 @@
 <div id="page-wrapper">
 <div id="page" class="container-16 clearfix">
 
-  <div id="main" class="column <?php print ns('grid-16', $page['sidebar_first'], 4, $page['sidebar_second'], 3) . ' ' . ns('push-4', !$page['sidebar_first'], 4); ?>">
+  <div id="main" class="column <?php print ns('grid-16', $page['sidebar_first'], 4, $page['sidebar_second'], 3) . ' ' . ns('push-4 prefix-1', !$page['sidebar_first'], 5); ?>">
     <?php print $breadcrumb; ?>
     <?php if ($tabs): ?>
       <div class="tabs"><?php print render($tabs); ?></div>

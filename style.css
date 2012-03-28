@@ -115,6 +115,10 @@ h1#site-name {
     background: url('images/bg05.gif') no-repeat 50% 100%;
 }
 
+#main.grid-11 {
+    border-left: 1px solid #DDDDD8;
+    width: 639px;
+}
 
 
 /**************/
