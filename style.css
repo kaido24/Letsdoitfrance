@@ -166,7 +166,8 @@ ul.menu a {
     min-height: 510px;
 }
 
-#block-locale-language {
+#block-locale-language,
+#block-system-powered-by {
     text-align: center;
 }
 #block-locale-language ul li {
@@ -174,5 +175,4 @@ ul.menu a {
     list-style-type: none;
     margin: 0 1em 0 0;
     overflow: hidden;
-    width: 18px;
 }
