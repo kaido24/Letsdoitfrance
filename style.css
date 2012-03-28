@@ -269,13 +269,14 @@ h1#site-name {
 
 
 #block-block-5 {
-	position: absolute;
-	bottom: 45px;
-	left: 127px;
-	width: 587px;
-	font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
-	color:#8e8d7e;
-	overflow: hidden;
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    width: 600px;
+    font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
+    color:#8e8d7e;
+    overflow: hidden;
+    font-weight: bold;
 }
 #block-block-5 ul {
 	width: 677px;
