@@ -175,7 +175,8 @@ h1#site-name {
 #block-block-3 ul.actions {
     margin: 0;
 }
-#block-block-3 ul.actions a {
+#block-block-3 ul.actions a,
+#block-block-4 .points-count .content {
 	display: block;
 	padding: 10px 12px;
 	background: #3590b9 url('images/hightlight01.gif') repeat-x;
@@ -188,6 +189,75 @@ h1#site-name {
 }
 #block-block-3 ul.actions a:hover {
 	background: #3da5c6 url('images/hightlight01b.gif') repeat-x;
+}
+
+
+
+#block-block-4 {
+	position: absolute;
+	right: 57px;
+	bottom:10px;
+	width: 306px;
+	text-align: center;
+}
+#block-block-4 .world-map a {
+	display: inline-block;
+	padding: 15px;
+	background: #8e8d7e url('images/hightlight02.gif') repeat-x;
+	font: 16px/1 Museo500, Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-shadow: 1px 1px 0 rgba(0,0,0, .29);
+	border-radius: 6px;
+	box-shadow: 1px 2px 0 rgba(0,0,0, .16);
+	text-decoration: none;
+}
+#block-block-4 .world-map a:hover {
+	background: #9b997d url('images/hightlight02b.gif') repeat-x;
+}
+#block-block-4 .data {
+	margin-top: 10px;
+	line-height: 2;
+	overflow: hidden;
+}
+#block-block-4 .country a {
+	color: #fff;
+}
+#block-block-4 .name {
+	margin: 0 10px;
+	font: 14px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+#block-block-4 .points-count {
+	margin-top: 16px;
+	padding-top: 17px;
+	background: url('images/arrow01.png') no-repeat 50% 0;
+}
+#block-block-4 .points-count .content {
+	padding: 20px;
+	text-transform: none;
+}
+#block-block-4 .data .points, #map-actions .data .date {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
+#block-block-4 .data .date {
+	margin-right: 10px;
+	font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
+	color: #fcb041;
+	text-align: center;
+}
+#block-block-4 .data .points {
+	text-align: left;
+	white-space: nowrap;
+}
+#block-block-4 .data .counter {
+	font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
+}
+#block-block-4 .data .points {
+	padding-right: 50px;
+	background: url('images/txt01.png') no-repeat 100% 5px;
+	font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
 }
 
 
