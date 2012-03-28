@@ -44,17 +44,10 @@
 
 
   <?php if (!$is_front): ?>
-    <?php
-    $node_id = arg(1);
-    $node = node_load($node_id);
-    if (isset($node->type)) {
-        $type = $node->type;
-    }
-    ?>
     <?php print render($title_prefix); ?>
-    <?php if ($title && $type !== 'article' ): ?>
+    <?php if ($title && $node->type != 'article' ): ?>
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
-    <?php elseif ($title && $type == 'article' ): ?>
+    <?php elseif ($title && $node->type == 'article' ): ?>
         <h1 class="title" id="page-title"><?php print t('News'); ?></h1>
     <?php endif;?>
     <?php print render($title_suffix); ?>
