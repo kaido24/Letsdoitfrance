@@ -9,9 +9,6 @@
     <?php if ($linked_site_name): ?>
       <h1 id="site-name" class=""><?php print $linked_site_name; ?></h1>
     <?php endif; ?>
-    <?php if ($site_slogan): ?>
-      <div id="site-slogan" class=""><?php print $site_slogan; ?></div>
-    <?php endif; ?>
     </div>
 
   <?php if ($main_menu_links || $secondary_menu_links): ?>
@@ -38,6 +35,15 @@
       <?php print render($page['header']); ?>
     </div>
   <?php endif; ?>
+
+  <?php if ($is_front): ?>
+    
+    <?php if ($site_slogan): ?>
+      <div id="site-slogan" class=""><?php print $site_slogan; ?></div>
+    <?php endif; ?>
+      
+  <?php endif; ?>
+
 
   <?php if (!$is_front): ?>
     <?php print render($title_prefix); ?>
