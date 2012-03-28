@@ -340,6 +340,10 @@ ul.menu a {
     margin: 0 0 1.437em 3em;
 }
 
+.content p {
+    margin-bottom: 1em;
+    line-height: 1.437;
+}
 
 /**************/
 /*** FOOTER ***/
