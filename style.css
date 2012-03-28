@@ -123,6 +123,9 @@ h1#site-name {
 	color: #266896;
 	font-weight: normal;
 }
+
+
+
 #block-block-1 {
 	position: absolute;
 	top: 150px;
@@ -138,6 +141,50 @@ h1#site-name {
 }
 #block-block-1 a:hover {
 	text-decoration: none;
+}
+
+
+
+#block-block-2 {
+	position: absolute;
+	left: 314px;
+	top: 152px;
+}
+#block-block-2 a {
+	display: block;
+	width: 172px;
+	height: 115px;
+	background: url('images/btn_video.png') no-repeat;
+	text-indent: -999px;
+	font-size: 0;
+}
+
+
+
+
+#block-block-3 {
+	position: absolute;
+	left: 519px;
+	top: 165px;
+	width: 145px;
+}
+#block-block-3 li {
+	margin-bottom: 15px;
+        list-style-type: none;
+}
+#block-block-3 a {
+	display: block;
+	padding: 10px 12px;
+	background: #3590b9 url('hightlight01.gif') repeat-x;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 rgba(0,0,0, .29);
+	border-radius: 6px;
+	box-shadow: 1px 2px 0 rgba(0,0,0, .16);
+}
+#block-block-3 a:hover {
+	background: #3da5c6 url('hightlight01b.gif') repeat-x;
 }
 
 
