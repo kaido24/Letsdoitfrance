@@ -44,6 +44,10 @@
 
 
   <?php if (!$is_front): ?>
+    <?php
+    $node_id = arg(1);
+    $node = node_load($node_id);
+    ?>
     <?php print render($title_prefix); ?>
     <?php if ($title && $node->type != 'article' ): ?>
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
