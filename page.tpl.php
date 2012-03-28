@@ -52,7 +52,7 @@
     }
     ?>
     <?php print render($title_prefix); ?>
-    <?php if ($title && $type != 'article' ): ?>
+    <?php if ($title && $type !== 'article' ): ?>
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
     <?php elseif ($title && $type == 'article' ): ?>
         <h1 class="title" id="page-title"><?php print t('News'); ?></h1>
