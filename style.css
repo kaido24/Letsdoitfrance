@@ -172,7 +172,7 @@ h1#site-name {
 	margin-bottom: 15px;
         list-style-type: none;
 }
-#block-block-3 a {
+#block-block-3 ul.actions a {
 	display: block;
 	padding: 10px 12px;
 	background: #3590b9 url('hightlight01.gif') repeat-x;
@@ -183,7 +183,7 @@ h1#site-name {
 	border-radius: 6px;
 	box-shadow: 1px 2px 0 rgba(0,0,0, .16);
 }
-#block-block-3 a:hover {
+#block-block-3 ul.actions a:hover {
 	background: #3da5c6 url('hightlight01b.gif') repeat-x;
 }
 
