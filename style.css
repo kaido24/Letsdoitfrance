@@ -131,7 +131,8 @@ h1#site-name {
 
 .menu li {
     margin-bottom: 2em;
-    text-align: right;
+    /*text-align: right;*/
+    list-style-type: none;
 }
 .menu a {
     display: block;
