@@ -221,6 +221,8 @@ h1#site-name {
 }
 #block-block-4 .country a {
 	color: #fff;
+        padding: 0.3em;
+        display: block;
 }
 #block-block-4 .name {
 	margin: 0 10px;
@@ -228,7 +230,7 @@ h1#site-name {
 	text-transform: uppercase;
         display: block;
         font-weight: bold;
-        background: url('images/flag_ru.gif') no-repeat 50% 0;
+        background: url('images/flag_ru.gif') no-repeat 30% 50%;
 }
 #block-block-4 .points-count {
 	margin-top: 16px;
@@ -249,6 +251,7 @@ h1#site-name {
 	font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
 	color: #fcb041;
 	text-align: center;
+        font-weight: bold;
 }
 #block-block-4 .data .points {
 	text-align: left;
