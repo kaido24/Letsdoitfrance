@@ -241,7 +241,8 @@ h1#site-name {
 	padding: 20px;
 	text-transform: none;
 }
-#block-block-4 .data .points, #map-actions .data .date {
+#block-block-4 .data .points,
+#map-actions .data .date {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
@@ -336,13 +337,21 @@ ul.menu a {
     padding-bottom: 1.5em;
 }
 
-.content ol, .content ul {
+.content ol,
+.content ul {
     margin: 0 0 1.437em 3em;
 }
 
 .content p {
     margin-bottom: 1em;
     line-height: 1.437;
+}
+.content h2,
+.content h3,
+.content h4 {
+    margin: 2em 0 .5em;
+    font: 22px/1.1 Museo700, Arial, Helvetica, sans-serif;
+    color: #31AB49;
 }
 
 table {
