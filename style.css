@@ -347,8 +347,11 @@ ul.menu a {
     line-height: 1.437;
 }
 .content h2,
+.content h2 a,
 .content h3,
-.content h4 {
+.content h3 a,
+.content h4,
+.content h4 a {
     margin: 2em 0 .5em;
     font: 22px/1.1 Museo700, Arial, Helvetica, sans-serif;
     color: #31AB49;
