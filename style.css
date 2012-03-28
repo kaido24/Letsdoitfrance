@@ -194,11 +194,11 @@ h1#site-name {
 
 
 #block-block-4 {
-	position: absolute;
-	right: 57px;
-	bottom:10px;
-	width: 306px;
-	text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 155px;
+    width: 306px;
+    text-align: center;
 }
 #block-block-4 .world-map a {
 	display: inline-block;
@@ -226,6 +226,9 @@ h1#site-name {
 	margin: 0 10px;
 	font: 14px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
+        display: block;
+        font-weight: bold;
+        background: url('images/flag_ru.gif') no-repeat 50% 0;
 }
 #block-block-4 .points-count {
 	margin-top: 16px;
@@ -242,7 +245,7 @@ h1#site-name {
 	*zoom: 1;
 }
 #block-block-4 .data .date {
-	margin-right: 10px;
+	margin: 0;
 	font: 30px/1 HelveticaNeueLTStd77BdCn, Arial, Helvetica, sans-serif;
 	color: #fcb041;
 	text-align: center;
